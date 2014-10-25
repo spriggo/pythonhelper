@@ -752,7 +752,8 @@ highlight User2 gui=bold guifg=black guibg=red
 " the status line will be displayed for every window
 set laststatus=2
 " set the status line to display some useful information
-set stl=%-f%r\ %2*%m%*\ \ \ \ %1*%{TagInStatusLine()}%*%=[%l:%c]\ \ \ \ [buf\ %n]
+" REMOVED for being brain dead
+" set stl=%-f%r\ %2*%m%*\ \ \ \ %1*%{TagInStatusLine()}%*%=[%l:%c]\ \ \ \ [buf\ %n]
 
 " }}}
 
